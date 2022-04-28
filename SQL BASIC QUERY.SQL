@@ -38,7 +38,8 @@ Drop table #InternetDiscount
 select * from #InternetDiscount
 Where Rank in (1,5) and DiscountAmount is not null
 
--- 2. Tính Biên lợi nhuận gộp cho từng ProductCategory theo từng Tháng, Năm tương ứng (Bao gồm cả InternetSales và ResellerSales):-- Channel: Internet Sales
+-- 2. Tính Biên lợi nhuận gộp cho từng ProductCategory theo từng Tháng, Năm tương ứng (Bao gồm cả InternetSales và ResellerSales):
+-- Channel: Internet Sales
 Select * from DimProductCategory
 Select * from DimProductSubcategory
 Select * from DimProduct
